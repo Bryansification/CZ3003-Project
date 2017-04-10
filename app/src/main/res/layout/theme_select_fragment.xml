@@ -8,34 +8,38 @@
     android:paddingRight="@dimen/theme_padding" >
 
     <RelativeLayout
-        android:id="@+id/theme_animals_container"
+        android:id="@+id/theme_alphabet_container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginRight="@dimen/theme_margin"
-        android:layout_weight="1" >
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1">
 
         <ImageView
-            android:id="@+id/theme_animals"
+            android:id="@+id/theme_alphabet"
+
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:adjustViewBounds="true"
-            android:src="@drawable/animals_theme_star_0" />
-
+            android:src="@drawable/number_theme" />
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/theme_monsters_container"
+
+
+        android:id="@+id/theme_number_container"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/theme_margin"
-        android:layout_weight="1" >
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1">
 
         <ImageView
-            android:id="@+id/theme_monsters"
+            android:id="@+id/imageView2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
             android:adjustViewBounds="true"
-            android:src="@drawable/monsters_theme_star_0" />
+            android:src="@drawable/alphabets_theme" />
     </RelativeLayout>
-
 </LinearLayout>

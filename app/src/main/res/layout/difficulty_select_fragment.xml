@@ -15,12 +15,12 @@
         android:gravity="center"
         android:orientation="vertical" >
 
-        <com.snatik.matches.ui.DifficultyView
+        <com.Minions.relaxia.ui.DifficultyView
             android:id="@+id/select_difficulty_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <com.snatik.matches.ui.DifficultyView
+        <com.Minions.relaxia.ui.DifficultyView
             android:id="@+id/select_difficulty_4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -35,12 +35,12 @@
         android:gravity="center"
         android:orientation="vertical" >
 
-        <com.snatik.matches.ui.DifficultyView
+        <com.Minions.relaxia.ui.DifficultyView
             android:id="@+id/select_difficulty_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <com.snatik.matches.ui.DifficultyView
+        <com.Minions.relaxia.ui.DifficultyView
             android:id="@+id/select_difficulty_5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -55,12 +55,12 @@
         android:gravity="center"
         android:orientation="vertical" >
 
-        <com.snatik.matches.ui.DifficultyView
+        <com.Minions.relaxia.ui.DifficultyView
             android:id="@+id/select_difficulty_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <com.snatik.matches.ui.DifficultyView
+        <com.Minions.relaxia.ui.DifficultyView
             android:id="@+id/select_difficulty_6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
