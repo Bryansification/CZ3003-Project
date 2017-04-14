@@ -33,8 +33,7 @@ import android.util.Log;
  * }).start();
  * 
  * <pre>
- * 
- * @author sromku
+ *
  * 
  */
 public class Clock {

@@ -13,7 +13,7 @@ import com.Minions.relaxia.ui.History;
 import java.util.ArrayList;
 
 /**
- * Created by JJ on 9/4/2017.
+ * Created by Shide on 9/4/2017.
  */
 
 public class ScoreDatabaseHandler extends SQLiteOpenHelper {

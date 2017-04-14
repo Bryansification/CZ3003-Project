@@ -1,23 +1,21 @@
 package com.Minions.relaxia.model;
 
-import java.util.Map;
-
 import android.graphics.Bitmap;
 
 import com.Minions.relaxia.common.Shared;
 import com.Minions.relaxia.themes.Themes;
 import com.Minions.relaxia.utils.Utils;
 
+import java.util.Map;
+
 /**
  * Before game starts, engine build new board
- * 
- * @author sromku
  */
 public class BoardArrangement {
 
-	// like {0-2, 4-3, 1-5}
+
 	public Map<Integer, Integer> pairs;
-	// like {0-mosters_20, 1-mosters_12, 2-mosters_20, ...}
+
 	public Map<Integer, String> tileUrls;
 
 	/**

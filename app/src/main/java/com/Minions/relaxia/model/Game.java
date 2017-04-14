@@ -4,8 +4,6 @@ import com.Minions.relaxia.themes.Theme;
 
 /**
  * This is instance of active playing game
- * 
- * @author sromku
  */
 public class Game {
 

@@ -1,19 +1,14 @@
 package com.Minions.relaxia.events;
 
+import android.os.Handler;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import android.os.Handler;
 
-/**
- * The gateway of all events running in the game from ui to engine components
- * and back.
- * 
- * @author sromku
- */
 public class EventBus {
 
 	private Handler mHandler;
